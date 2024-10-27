@@ -1,22 +1,19 @@
 
-Project Title
-Nginx_Apache_Jenkins_Pipeline
-
+Project Title: Nginx_Apache_Jenkins_Pipeline
 Overview
-deploying an automated pipeline on AWS CodeDeploy to facilitate ci/cd
+Deploy an automated CI/CD pipeline on AWS CodeDeploy to streamline deployment using Jenkins, SonarQube, Docker, and GitHub Webhooks.
 
-How To Replicate Project
-
-
+How to Replicate Project
+Set up AWS CodeDeploy and EC2 instances.
+Configure Jenkins to connect with GitHub and trigger builds.
+Set up Docker containers for deployment.
 Highlights
-Technologies Used:
-CI/CD using Jenkins, SonarQube, Docker, Github Webhooks on AWS, EC2
-
-Key Functionality:
-
-
-Challenges Overcome:
-
-
+Technologies Used: Jenkins, SonarQube, Docker, GitHub Webhooks, AWS, EC2.
+Key Functionality
+Automated deployment pipeline.
+Continuous Integration and Continuous Delivery setup.
+Challenges Overcome
+Integrating Jenkins with AWS CodeDeploy.
+Configuring secure Webhooks.
 Screenshots
 ![image](https://github.com/user-attachments/assets/583a70b3-fe7a-4def-b794-a11a2624668c)
