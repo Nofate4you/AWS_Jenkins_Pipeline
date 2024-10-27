@@ -6,17 +6,24 @@ Deploy an automated CI/CD pipeline on Jenkins to streamline deployment using Jen
 
 ## How to Replicate the Project
 1.First, set up your Jenkins environment on the localhost IP.
+
 2.Open the GitHub repository you want for CI/CD and create a webhook.
+
 3.Configure the webhook to match the Jenkins settings inside the pipeline.
+
 4.Download Windows Subsystem for Linux (WSL) and install Ubuntu and Nginx.
+
 5.Configure WSL to connect to your public IP address, and ensure Apache2 web server launches on your Windows OS.
+
 6.In Jenkins configurations, add a build step using Windows Batch commands to make it work on a Windows system.
+
 7.Set configurations that allow Apache2 to work on Windows OS, and configure these settings in WSL.
+
 8.Verify that your pipeline successfully triggers when you update your code in GitHub.
+
 9.Open the Apache2 website and verify that the Jenkins pipeline is linked.
 
-## Highlights
-- **Technologies Used**:
+## Highlights- **Technologies Used**:
 -  Jenkins, SonarQube, Docker, GitHub Webhooks, Ubuntu, Apache2, Nginx
 
 ## Key Functionality
